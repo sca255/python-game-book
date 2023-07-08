@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>add1b020-5e4e-4d38-b822-d5394d463ac1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>numberguess1.py</StartupFile>
+    <StartupFile>module selector.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,11 @@
   </PropertyGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|py_game_book" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="joke_teller.py" />
+    <Compile Include="module selector.py" />
+    <Compile Include="numberGuess1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
