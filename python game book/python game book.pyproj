@@ -4,14 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>add1b020-5e4e-4d38-b822-d5394d463ac1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module selector.py</StartupFile>
+    <StartupFile>numberGuess1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>python game book</Name>
     <RootNamespace>python game book</RootNamespace>
-    <InterpreterId>CondaEnv|CondaEnv|py_game_book</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|env1</InterpreterId>
     <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -23,12 +23,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <InterpreterReference Include="CondaEnv|CondaEnv|py_game_book" />
+    <Compile Include="joke_teller.py" />
+    <Compile Include="numberGuess1.py" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="joke_teller.py" />
-    <Compile Include="module selector.py" />
-    <Compile Include="numberGuess1.py" />
+    <InterpreterReference Include="CondaEnv|CondaEnv|env1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
